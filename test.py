@@ -1,4 +1,5 @@
-from config import *
+import resend
+import os
 
 resend.api_key = os.getenv("RESEND_API_KEY")
 
