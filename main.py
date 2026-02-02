@@ -91,8 +91,5 @@ def main():
 
     asyncio.run(ejecutar_investigacion())
 
-
-    #send_email(subject: str, html: str, to: str = "miguel.ossa.abellan@gmail.com")
-
 if __name__ == "__main__":
     main()
