@@ -11,9 +11,9 @@ buena gramática. El resultado será consumido por alguien que sintetiza un info
 captures la esencia e ignores cualquier relleno. No incluyas ningún comentario adicional que no sea el resumen en sí.
 """
 
-CUANTAS_BUSQUEDAS = 3
+NUMERO_BUSQUEDAS = 3
 INSTRUCCIONES_PLANIFICADOR = f"Eres un asistente de investigación útil. Dada una consulta, propón un conjunto de " + \
-                f"búsquedas web para responder mejor la consulta. Proporciona {CUANTAS_BUSQUEDAS} términos para buscar."
+                f"búsquedas web para responder mejor la consulta. Proporciona {NUMERO_BUSQUEDAS} términos para buscar."
 
 INSTRUCCIONES_ENVIO = """
 Eres capaz de enviar un email HTML bien formateado basado en un informe detallado
